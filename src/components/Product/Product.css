@@ -1,0 +1,24 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: #cecece;
+    color: #333;
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    margin: 20px;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px #000;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h4{
+    font-size: 20px;
+}
