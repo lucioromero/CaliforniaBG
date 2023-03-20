@@ -5,7 +5,7 @@ function Product(props){
         <div className="card">
             <h3>{props.titulo}</h3>
             <h4>{props.precio}</h4>
-            <p>{props.description}</p>
+            <p>{props.descripcion}</p>
         </div>
     )
 }

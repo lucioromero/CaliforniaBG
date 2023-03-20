@@ -15,10 +15,16 @@
     box-shadow: 10px 10px 10px #000;
 }
 
+.card:hover{
+    width: 280px;
+    height: 320px;
+    transition: 0.5s;
+}
+
 h3{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 h4{
-    font-size: 20px;
+    font-size: 18px;
 }
