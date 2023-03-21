@@ -2,24 +2,21 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: #cecece;
     color: #333;
     width: 250px;
     height: 300px;
-    padding: 10px;
     border: none;
     border-radius: 7px;
-    margin: 20px;
-    cursor: pointer;
+    margin: 30px;
     box-shadow: 10px 10px 10px #000;
 }
 
-.card:hover{
-    width: 280px;
+/* .card:hover{
     height: 320px;
     transition: 0.5s;
-}
+} */
 
 h3{
     font-size: 25px;
@@ -27,4 +24,44 @@ h3{
 
 h4{
     font-size: 18px;
+}
+
+.header{
+    background-color: #cecece;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.footer{
+    background-color: #D4C685;
+    padding: 6px;
+    border-radius: 7px;
+}
+
+.img{
+   width: 250px;
+   height: 200px;
+}
+
+/* .img:hover{
+    height: 100%;
+    transition: 1s;
+} */
+
+.agregar-carrito{
+    width: 80%;
+    background-color: #D17B0F;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;    
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.agregar-carrito:hover{
+    background-color: #cecece;
+    border: solid 3px #D17B0F;
+    color: #D17B0F;
+    transition: 0.3s;
 }

@@ -2,6 +2,7 @@ import "./App.css"
 import Navbar  from "./components/Navbar/Navbar";
 import Titulo from "./components/Titulo/Titulo";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
+import Footer from "./components/Footer/Footer";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
             <ItemListContainer />
           </div>
       </header>
+      <Footer />
     </div>
   );
 }

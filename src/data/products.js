@@ -4,6 +4,7 @@ const products = [
         titulo: "Cheese",
         precio: "$1.000",
         descripcion: "Pan de papa, medallon de carne, cheddar x2.",
+        img: "../../images/",
         stock: 12,
         categoria: "burger"
     },
@@ -12,6 +13,7 @@ const products = [
         titulo: "Bacon",
         precio: "$1.000",
         descripcion: "Pan de papa, medallon de carne, cheddar, bacon ahumado.",
+        img: "../../images/",
         stock: 12,
         categoria: "burger"
     },
@@ -19,7 +21,8 @@ const products = [
         id: 3,
         titulo: "Clasica",
         precio: "$1.000",
-        descripcion: "Pan de papa, medallon de carne, cheddar, lechuga, tomate, cebolla, salsa Cali.",
+        descripcion: "Pan de papa, medallon de carne, cheddar, lechuga, tomate, cebolla, salsa especial.",
+        img: "../../images/",
         stock: 12,
         categoria: "burger"
     },
@@ -28,6 +31,7 @@ const products = [
         titulo: "Milo",
         precio: "$1.000",
         descripcion: "Pan de papa, medallon de carne, cheddar, cebolla grillada, manteca especial.",
+        img: "../../images/",
         stock: 12,
         categoria: "burger"
     },
@@ -36,6 +40,7 @@ const products = [
         titulo: "Virginia",
         precio: "$1.000",
         descripcion: "Pan de papa, medallon de carne, cheddar, cebolla caramelizada, bacon ahumado.",
+        img: "../../images/",
         stock: 12,
         categoria: "burger"
     },
@@ -44,6 +49,7 @@ const products = [
         titulo: "Crispy",
         precio: "$1.000",
         descripcion: "Pan de papa, medallon de carne, cheddar, cebolla crispy, bacon ahumado, salsa BBQ.",
+        img: "../../images/",
         stock: 12,
         categoria: "burger"
     },
@@ -52,6 +58,7 @@ const products = [
         titulo: "Michigan",
         precio: "$1.100",
         descripcion: "Pan de papa, medallon de carne, cheddar, bacon ahumado, huevo frito, salsa BBQ.",
+        img: "../../images/",
         stock: 12,
         categoria: "burger"
     },
@@ -60,6 +67,7 @@ const products = [
         titulo: "Stacker",
         precio: "$1.100",
         descripcion: "Pan de papa, medallon de carne, cheddar, aros de cebolla, bacon ahumado, salsa Stacker.",
+        img: "../../images/",
         stock: 12,
         categoria: "burger"
     },
@@ -68,14 +76,16 @@ const products = [
         titulo: "Bandeja de papas",
         precio: "$700",
         descripcion: "Bandeja de papas fritas.",
+        img: "../../images/",
         stock: 12,
         categoria: "extra"
     },
     {   
         id: 10,
-        titulo: "Bandeja de papas con cheddar",
+        titulo: "Papas con cheddar",
         precio: "$1.000",
         descripcion: "Bandeja de papas fritas con cheddar.",
+        img: "../../images/",
         stock: 12,
         categoria: "extra"
     },
@@ -84,6 +94,7 @@ const products = [
         titulo: "Pepsi",
         precio: "$350",
         descripcion: "Lata de Pepsi 354ml.",
+        img: "../../images/",
         stock: 12,
         categoria: "bebida"
     },
@@ -92,6 +103,7 @@ const products = [
         titulo: "Pepsi Black",
         precio: "$350",
         descripcion: "Lata de Pepsi Black 354ml.",
+        img: "../../images/",
         stock: 12,
         categoria: "bebida"
     },
@@ -100,6 +112,7 @@ const products = [
         titulo: "7up!",
         precio: "$350",
         descripcion: "Lata de 7up! 354ml.",
+        img: "../../images/",
         stock: 12,
         categoria: "bebida"
     },
@@ -108,6 +121,7 @@ const products = [
         titulo: "Coca Cola",
         precio: "$400",
         descripcion: "Lata de Coca-Cola 354ml.",
+        img: "../../images/",
         stock: 12,
         categoria: "bebida"
     },
@@ -116,14 +130,16 @@ const products = [
         titulo: "Fanta",
         precio: "$400",
         descripcion: "Lata de Fanta 354ml.",
+        img: "../../images/",
         stock: 12,
-        categoria: "burger"
+        categoria: "bebida"
     },
     {   
         id: 16,
         titulo: "Heineken",
         precio: "$550",
         descripcion: "Lata de Heineken 473ml.",
+        img: "../../images/",
         stock: 12,
         categoria: "bebida"
     },
