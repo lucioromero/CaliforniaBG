@@ -5,8 +5,8 @@
     justify-content: space-between;
     background-color: #cecece;
     color: #333;
-    width: 250px;
-    height: 300px;
+    width: 280px;
+    height: 370px;
     border: none;
     border-radius: 7px;
     margin: 30px;
@@ -61,7 +61,25 @@ h4{
 
 .agregar-carrito:hover{
     background-color: #cecece;
-    border: solid 3px #D17B0F;
+    border: solid 1px #D17B0F;
     color: #D17B0F;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.detalle{
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 5px;
+    background-color: #BFBDC1;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.detalle:hover{
+    background-color: #cecece;
+    color: #333;
     transition: 0.3s;
 }

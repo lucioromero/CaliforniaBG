@@ -9,6 +9,7 @@ function ItemList(props){
         products.map((product) => 
         <Product 
             key = {product.id}
+            id = {product.id}
             titulo = {product.titulo}
             img = {product.img}
             descripcion = {product.descripcion}

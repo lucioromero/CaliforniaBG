@@ -6,12 +6,14 @@ import "./ItemCount.css"
 function ItemCount(){
     const [count, setCount] = useState(0)
 
+    function Resta(){
+        if(count > 0){
+            setCount(count -1)
+        }
+    }
+    
     function Suma(){
         setCount(count + 1)
-    }
-
-    function Resta(){
-        setCount(count -1)
     }
 
     return (

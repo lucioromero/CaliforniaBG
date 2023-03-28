@@ -3,7 +3,7 @@ const products = [
         id: 1,
         titulo: "Cheese",
         precio: "$1.000",
-        descripcion: "Pan de papa, medallon de carne, cheddar x2.",
+        descripcion: "Pan de papa, medallon de carne, doble cheddar.",
         img: "../../images/",
         stock: 12,
         categoria: "burger"
