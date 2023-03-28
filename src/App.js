@@ -1,40 +1,31 @@
 import "./App.css"
 import Navbar  from "./components/Navbar/Navbar";
 import Titulo from "./components/Titulo/Titulo";
-import Product from "./components/Product/Product";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
+import Footer from "./components/Footer/Footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Flex from "./components/Flex/Flex";
+import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
 
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Titulo titulo="¡Bienvenidos a California Burgers!"/>
-      <header className="App-header">
-        <div style = {{display: "flex"}}>
-            <Product 
-              titulo="Cheeseburger"
-              precio="$1100"
-              description="Medallon de 100grs. con cheddar"
-            />
-            <Product 
-              titulo="Clásica"
-              precio="$1250"
-              description="Medallon de 100grs. con lechuga y tomate"
-            />
-            <Product 
-              titulo="Cheesebacon"
-              precio="$1500"
-              description="Medallon de 100grs. con cheddar y bacon'"
-            />
-            <Product 
-              titulo="Special Cali"
-              precio="$1700"
-              description="Medallon de 100grs. con cheddar, bacon y salsa especial 'Cali'"
-            />
-          </div>
-      </header>
-    </div>
+    
+    <BrowserRouter>
+    <Navbar />
+    <Titulo titulo = "CALIFORNIA BURGERS"/>
+    <div style = {{display: "flex"}} className="main">
+      <Routes>
+        <Route path = "/" element = { <ItemListContainer />} />
+        <Route path = "/categoria/:categoriaid" element = { <ItemListContainer />} />
+        <Route path = "/detalle/:id" element = { <ItemDetailContainer />} />
+      </Routes>
+      </div>
+      <Footer />
+    </BrowserRouter>
   );
 }
 
 export default App;
+
+

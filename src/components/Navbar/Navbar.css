@@ -1,14 +1,14 @@
 .navbar{
-   display: flex;
-   justify-content: right; 
-   background-color: #FBA02C;
-   width: 100%;
-}
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    background-color: #D68C45;
+ }
 
 .logo{
     width: 50px;
     height: 50px;
-    margin: 10px;
+    margin: 10px 0px 10px 30px;
 }
 
 .navbar-items{
