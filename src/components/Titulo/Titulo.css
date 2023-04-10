@@ -1,9 +1,18 @@
 .titulo{
-    font-family: 'Lilita One', cursive;
-    padding: 50px 0px 30px 0px;
+    font-family: 'Allerta Stencil', sans-serif;
+    padding: 40px 0px 3px 0px;
     font-size: 75px;
     letter-spacing: 5px;
     text-align: center;
     color: #fff;
     background-color: #333;
+}
+
+.subtitulo{
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #fff;
+    background-color: #333;  
 }

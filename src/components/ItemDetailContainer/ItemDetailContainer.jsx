@@ -1,8 +1,5 @@
 import React , { useState, useEffect } from "react";
-import ItemList from "../ItemList/ItemList";
 import productsDatabase from "../../data/products";
-import Flex from "../Flex/Flex";
-import Product from "../Product/Product";
 import { useParams } from "react-router-dom";
 import ItemDetail from "../ItemDetail/ItemDetail";
 
@@ -12,7 +9,7 @@ function getSingleItem(id){
           const encontrado = productsDatabase.find(item => {
             return (item.id === parseInt(id))
           })
-                resolve(encontrado)
+              resolve(encontrado)
             },)
     })
 
@@ -30,15 +27,19 @@ function ItemDetailContainer(){
         });
   
       }, []);
-    
+
       return (
-        <ItemDetail 
+        <div>
+          <ItemDetail 
             titulo = {product.titulo}
             img = {product.img}
             descripcion = {product.descripcion}
             precio = {product.precio}
-        />
+            stock = {product.stock}
+            />
+        </div>        
       )
+
 }
 
 export default ItemDetailContainer;

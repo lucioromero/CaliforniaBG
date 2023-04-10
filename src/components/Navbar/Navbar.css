@@ -25,6 +25,6 @@
 }
 
 .boton:hover{
-    color: #000;
+    color: #333;
     transition: 0.5s;
 }

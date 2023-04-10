@@ -5,7 +5,7 @@ const products = [
         precio: "$1.000",
         descripcion: "Pan de papa, medallon de carne, doble cheddar.",
         img: "../../images/",
-        stock: 12,
+        stock: 3,
         categoria: "burger"
     },
     {   
@@ -14,7 +14,7 @@ const products = [
         precio: "$1.000",
         descripcion: "Pan de papa, medallon de carne, cheddar, bacon ahumado.",
         img: "../../images/",
-        stock: 12,
+        stock: 6,
         categoria: "burger"
     },
     {   
@@ -32,7 +32,7 @@ const products = [
         precio: "$1.000",
         descripcion: "Pan de papa, medallon de carne, cheddar, cebolla grillada, manteca especial.",
         img: "../../images/",
-        stock: 12,
+        stock: 9,
         categoria: "burger"
     },
     {   
@@ -41,7 +41,7 @@ const products = [
         precio: "$1.000",
         descripcion: "Pan de papa, medallon de carne, cheddar, cebolla caramelizada, bacon ahumado.",
         img: "../../images/",
-        stock: 12,
+        stock: 13,
         categoria: "burger"
     },
     {   
@@ -50,7 +50,7 @@ const products = [
         precio: "$1.000",
         descripcion: "Pan de papa, medallon de carne, cheddar, cebolla crispy, bacon ahumado, salsa BBQ.",
         img: "../../images/",
-        stock: 12,
+        stock: 8,
         categoria: "burger"
     },
     {   
@@ -59,7 +59,7 @@ const products = [
         precio: "$1.100",
         descripcion: "Pan de papa, medallon de carne, cheddar, bacon ahumado, huevo frito, salsa BBQ.",
         img: "../../images/",
-        stock: 12,
+        stock: 4,
         categoria: "burger"
     },
     {   
@@ -68,7 +68,7 @@ const products = [
         precio: "$1.100",
         descripcion: "Pan de papa, medallon de carne, cheddar, aros de cebolla, bacon ahumado, salsa Stacker.",
         img: "../../images/",
-        stock: 12,
+        stock: 7,
         categoria: "burger"
     },
     {   
@@ -77,7 +77,7 @@ const products = [
         precio: "$700",
         descripcion: "Bandeja de papas fritas.",
         img: "../../images/",
-        stock: 12,
+        stock: 5,
         categoria: "extra"
     },
     {   
@@ -86,7 +86,7 @@ const products = [
         precio: "$1.000",
         descripcion: "Bandeja de papas fritas con cheddar.",
         img: "../../images/",
-        stock: 12,
+        stock: 11,
         categoria: "extra"
     },
     {   
@@ -95,7 +95,7 @@ const products = [
         precio: "$350",
         descripcion: "Lata de Pepsi 354ml.",
         img: "../../images/",
-        stock: 12,
+        stock: 10,
         categoria: "bebida"
     },
     {   
@@ -104,7 +104,7 @@ const products = [
         precio: "$350",
         descripcion: "Lata de Pepsi Black 354ml.",
         img: "../../images/",
-        stock: 12,
+        stock: 14,
         categoria: "bebida"
     },
     {   
@@ -113,7 +113,7 @@ const products = [
         precio: "$350",
         descripcion: "Lata de 7up! 354ml.",
         img: "../../images/",
-        stock: 12,
+        stock: 16,
         categoria: "bebida"
     },
     {   
@@ -122,7 +122,7 @@ const products = [
         precio: "$400",
         descripcion: "Lata de Coca-Cola 354ml.",
         img: "../../images/",
-        stock: 12,
+        stock: 11,
         categoria: "bebida"
     },
     {   
@@ -131,7 +131,7 @@ const products = [
         precio: "$400",
         descripcion: "Lata de Fanta 354ml.",
         img: "../../images/",
-        stock: 12,
+        stock: 4,
         categoria: "bebida"
     },
     {   
@@ -140,7 +140,7 @@ const products = [
         precio: "$550",
         descripcion: "Lata de Heineken 473ml.",
         img: "../../images/",
-        stock: 12,
+        stock: 9,
         categoria: "bebida"
     },
 ]

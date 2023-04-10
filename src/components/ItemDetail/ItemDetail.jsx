@@ -1,8 +1,20 @@
 import "./ItemDetail.css"
 import ItemCount from "../ItemCount/ItemCount";
-import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { cartContext } from "../../context/cartContext";
+import { useState } from "react";
+import products from "../../data/products";
 
 function ItemDetail(props){
+    const [products, setProducts] = useState([])
+    const {cart, agregarItem } = useContext(cartContext)
+    
+    function agregarCarrito(count){
+        console.log("Agregaste al carrito:", count, props.titulo)
+        agregarItem(props, count)
+    }
+
+
     return (
         <div className="card-detail" id = {props.id}>
             <div>
@@ -14,24 +26,10 @@ function ItemDetail(props){
             <div className="footer-detail">
                 <h4>{props.precio}</h4>
                 <p className="descripcion">{props.descripcion}</p>
-                <ItemCount />
-                <button className="agregar-carrito">Agregar al carrito</button>
-            </div>
-                
-            
+                <ItemCount agregarCarrito = {agregarCarrito}
+                    stock = {props.stock}/>
+            </div>   
         </div>
-        
-        // <div className="card-detail" id = {props.id}>
-        //         <h1>{props.titulo}</h1>
-        //         <img src={props.img} alt="imagen"/>
-        //         <div className="footer-detail">
-        //         <h2>{props.precio}</h2>
-        //         <p>{props.descripcion}</p>
-        //         <ItemCount />
-        //         <button className="agregar-carrito">Agregar al carrito</button>
-        //         </div>
-                
-        // </div>
     )
 }
 

@@ -1,7 +1,6 @@
 import React , { useState, useEffect } from "react";
 import ItemList from "../ItemList/ItemList";
 import productsDatabase from "../../data/products";
-import Flex from "../Flex/Flex";
 import { useParams } from "react-router-dom";
 
 
@@ -42,7 +41,7 @@ function getItems() {
         )
       }
 
-    }, []);
+    }, [categoriaid]);
 
     return (
         <ItemList products = {products} /> 
