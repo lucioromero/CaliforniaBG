@@ -1,13 +1,14 @@
-import { useContext } from "react";
+import React, { useContext } from "react";
 import "./Carrito.css"
 import { cartContext } from "../../context/cartContext";
 
 function Carrito (){
-    const { cart } = useContext(cartContext)
+    const context = useContext(cartContext)
+    const totalItems = context.totalItems
     return (
         <div>
             <img src="/images/carrito.png" alt="carrito" className="carrito" />
-            <span className="total-carrito">{cart.length}</span>
+            <span className="total-carrito">{totalItems()}</span>
         </div>
         
     )

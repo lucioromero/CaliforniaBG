@@ -16,11 +16,22 @@ function CartProvider(props){
         let total = 0
         cart.forEach((item) => {
             total += item.count;
-            return total;
         })
+        
+        return total;
     }   
+
+    function precioTotal(){
+        let precioTotal = 0
+        cart.forEach((item) => {
+            precioTotal += item.count * item.precio
+        })
+
+        return precioTotal
+    }
+
     return (
-        <Provider value = { { cart, agregarItem, totalItems } }>
+        <Provider value = { { cart, agregarItem, precioTotal, totalItems } }>
             {props.children}
         </Provider>
     )

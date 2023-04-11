@@ -2,7 +2,7 @@ const products = [
     {   
         id: 1,
         titulo: "Cheese",
-        precio: "$1.000",
+        precio: "1000",
         descripcion: "Pan de papa, medallon de carne, doble cheddar.",
         img: "../../images/",
         stock: 3,
@@ -11,7 +11,7 @@ const products = [
     {   
         id: 2,
         titulo: "Bacon",
-        precio: "$1.000",
+        precio: "1000",
         descripcion: "Pan de papa, medallon de carne, cheddar, bacon ahumado.",
         img: "../../images/",
         stock: 6,
@@ -20,7 +20,7 @@ const products = [
     {   
         id: 3,
         titulo: "Clasica",
-        precio: "$1.000",
+        precio: "1000",
         descripcion: "Pan de papa, medallon de carne, cheddar, lechuga, tomate, cebolla, salsa especial.",
         img: "../../images/",
         stock: 12,
@@ -29,7 +29,7 @@ const products = [
     {   
         id: 4,
         titulo: "Milo",
-        precio: "$1.000",
+        precio: "1000",
         descripcion: "Pan de papa, medallon de carne, cheddar, cebolla grillada, manteca especial.",
         img: "../../images/",
         stock: 9,
@@ -38,7 +38,7 @@ const products = [
     {   
         id: 5,
         titulo: "Virginia",
-        precio: "$1.000",
+        precio: "1000",
         descripcion: "Pan de papa, medallon de carne, cheddar, cebolla caramelizada, bacon ahumado.",
         img: "../../images/",
         stock: 13,
@@ -47,7 +47,7 @@ const products = [
     {   
         id: 6,
         titulo: "Crispy",
-        precio: "$1.000",
+        precio: "1000",
         descripcion: "Pan de papa, medallon de carne, cheddar, cebolla crispy, bacon ahumado, salsa BBQ.",
         img: "../../images/",
         stock: 8,
@@ -56,7 +56,7 @@ const products = [
     {   
         id: 7,
         titulo: "Michigan",
-        precio: "$1.100",
+        precio: "1100",
         descripcion: "Pan de papa, medallon de carne, cheddar, bacon ahumado, huevo frito, salsa BBQ.",
         img: "../../images/",
         stock: 4,
@@ -65,7 +65,7 @@ const products = [
     {   
         id: 8,
         titulo: "Stacker",
-        precio: "$1.100",
+        precio: "1100",
         descripcion: "Pan de papa, medallon de carne, cheddar, aros de cebolla, bacon ahumado, salsa Stacker.",
         img: "../../images/",
         stock: 7,
@@ -74,7 +74,7 @@ const products = [
     {   
         id: 9,
         titulo: "Bandeja de papas",
-        precio: "$700",
+        precio: "700",
         descripcion: "Bandeja de papas fritas.",
         img: "../../images/",
         stock: 5,
@@ -83,7 +83,7 @@ const products = [
     {   
         id: 10,
         titulo: "Papas con cheddar",
-        precio: "$1.000",
+        precio: "1000",
         descripcion: "Bandeja de papas fritas con cheddar.",
         img: "../../images/",
         stock: 11,
@@ -92,7 +92,7 @@ const products = [
     {   
         id: 11,
         titulo: "Pepsi",
-        precio: "$350",
+        precio: "350",
         descripcion: "Lata de Pepsi 354ml.",
         img: "../../images/",
         stock: 10,
@@ -101,7 +101,7 @@ const products = [
     {   
         id: 12,
         titulo: "Pepsi Black",
-        precio: "$350",
+        precio: "350",
         descripcion: "Lata de Pepsi Black 354ml.",
         img: "../../images/",
         stock: 14,
@@ -110,7 +110,7 @@ const products = [
     {   
         id: 13,
         titulo: "7up!",
-        precio: "$350",
+        precio: "350",
         descripcion: "Lata de 7up! 354ml.",
         img: "../../images/",
         stock: 16,
@@ -119,7 +119,7 @@ const products = [
     {   
         id: 14,
         titulo: "Coca Cola",
-        precio: "$400",
+        precio: "400",
         descripcion: "Lata de Coca-Cola 354ml.",
         img: "../../images/",
         stock: 11,
@@ -128,7 +128,7 @@ const products = [
     {   
         id: 15,
         titulo: "Fanta",
-        precio: "$400",
+        precio: "400",
         descripcion: "Lata de Fanta 354ml.",
         img: "../../images/",
         stock: 4,
@@ -137,7 +137,7 @@ const products = [
     {   
         id: 16,
         titulo: "Heineken",
-        precio: "$550",
+        precio: "550",
         descripcion: "Lata de Heineken 473ml.",
         img: "../../images/",
         stock: 9,
