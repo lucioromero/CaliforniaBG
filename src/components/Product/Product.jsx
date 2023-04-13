@@ -9,7 +9,7 @@ function Product(props){
             </div>
             <img src={props.img} alt="imagen" className="img"/>
             <div className="footer">
-                <h4>{props.precio}</h4>
+                <h4>${props.precio}</h4>
                 <Link to={`/detalle/${props.id}`}>
                     <button className="detalle">Detalles</button>
                 </Link>

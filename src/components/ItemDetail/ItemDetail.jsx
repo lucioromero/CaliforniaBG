@@ -10,7 +10,6 @@ function ItemDetail(props){
     const {cart, agregarItem } = useContext(cartContext)
     
     function agregarCarrito(count){
-        console.log("Agregaste al carrito:", count, props.titulo)
         agregarItem(props, count)
     }
 
@@ -24,7 +23,7 @@ function ItemDetail(props){
             <img src={props.img} alt="imagen" className="img"/>
             </div>
             <div className="footer-detail">
-                <h4>{props.precio}</h4>
+                <h4>${props.precio}</h4>
                 <p className="descripcion">{props.descripcion}</p>
                 <ItemCount agregarCarrito = {agregarCarrito}
                     stock = {props.stock}/>

@@ -1,29 +1,19 @@
 import React , { useState, useEffect } from "react";
 import ItemList from "../ItemList/ItemList";
-import productsDatabase from "../../data/products";
 import { useParams } from "react-router-dom";
+import { getItems, getCategoria } from "../../services/db";
 
 
-function getItems() {
-    const promesa = new Promise((resolve) => {
-      setTimeout(() => {
-        resolve(productsDatabase);
-      },);
-    });
+  // function getCategoria(categoriaid) {
+  //   const promesa = new Promise((resolve) => {
+  //     setTimeout(() => {
+  //       const cat = productsDatabase.filter(producto => producto.categoria === categoriaid)
+  //       resolve(cat);
+  //     },);
+  //   });
   
-    return promesa;
-  }
-  
-  function getCategoria(categoriaid) {
-    const promesa = new Promise((resolve) => {
-      setTimeout(() => {
-        const cat = productsDatabase.filter(producto => producto.categoria === categoriaid)
-        resolve(cat);
-      },);
-    });
-  
-    return promesa;
-  }
+  //   return promesa;
+  // }
 
   function ItemListContainer() {
     const [products, setProducts] = useState([]);
