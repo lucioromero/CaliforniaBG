@@ -17,7 +17,6 @@ function ItemCount(props){
         } else {
             alert("Alcanzaste el stock máximo.")
         }
-
     }
 
     return (
