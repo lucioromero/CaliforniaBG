@@ -23,6 +23,8 @@ function CartContainer(){
             text: "El ID de tu compra es: " + orderId,
             icon: "success"
         })
+
+        vaciarCarrito()
     }
 
     if(cart.length === 0){
@@ -43,7 +45,7 @@ function CartContainer(){
             <div className="total">
                 <p>Total: ${precioTotal()}</p>
                 <button className="comprar" onClick={order}>Finalizar compra</button>
-                <button className="vaciar-carrito" onClick={vaciarCarrito()}>Vaciar Carrito</button>
+                <button className="vaciar-carrito" onClick={vaciarCarrito}>Vaciar Carrito</button>
             </div>
         </>    
         )

@@ -26,7 +26,7 @@ function CartProvider(props){
     }
 
     function vaciarCarrito(){
-        (cart.splice(0, cart.length))
+        setCart([])
     }
 
     function totalItems(){

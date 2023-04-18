@@ -11,7 +11,7 @@ function ItemCart(props) {
         <div>
           <h1 className="carrito-titulo">Carrito</h1>
           {cart.map((item) => (
-            <div className="item-carrito">
+            <div className="item-carrito" key={Math.random()}>
               <div className="item">
                 <h4>{item.titulo}</h4>
               </div>
