@@ -1,0 +1,30 @@
+.form{
+    margin: 10px;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #666
+}
+
+.form-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    font-size: 18px;
+}
+
+.label-input{
+    margin-right: 10px;
+}
+
+.comprar{
+    font-weight: bold;
+    padding: 7px;
+    margin: 10px 0px 30px 0px;
+    background-color: #D68C45;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -5,15 +5,16 @@ import "./CartContainer.css"
 import ItemCart from "../ItemCart/ItemCart";
 import { createOrder } from "../../services/db";
 import swal from "sweetalert";
+import Form from "../Form/Form";
 
 function CartContainer(){
     const context = useContext(cartContext)
     const { cart, precioTotal, vaciarCarrito } = context
 
-    async function order(){
+    async function order(userData){
         const order = {
             items: cart,
-            buyer: {name: "Lucio"},
+            buyer: userData,
             total: precioTotal(),
             date: new Date()
         }
@@ -30,12 +31,12 @@ function CartContainer(){
     if(cart.length === 0){
         return (
             <>
-                <div style = {{display: "flex"}}>
+                <div className="carrito-vacio">
                     <h1 className="carrito-titulo">El carrito esta vacío</h1>
                             <Link to = "/">
                                 <button className="comprar">Ver todos los productos</button>
                             </Link>
-                </div>  
+                </div> 
             </>
         )
     } else{
@@ -43,9 +44,9 @@ function CartContainer(){
         <> 
             <ItemCart />
             <div className="total">
-                <p>Total: ${precioTotal()}</p>
-                <button className="comprar" onClick={order}>Finalizar compra</button>
+                <h3>Total: ${precioTotal()}</h3>
                 <button className="vaciar-carrito" onClick={vaciarCarrito}>Vaciar Carrito</button>
+                <Form onCheckout = {order} />
             </div>
         </>    
         )
